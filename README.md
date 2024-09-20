@@ -8,7 +8,7 @@ Welcome to the **Automatic Speech Recognition (ASR)** repository! This project f
 
 This repository contains the following key components for building an ASR system:
 1. **Data Preprocessing:** Tools and scripts to preprocess audio data for training and evaluation.
-2. **Model Architecture:** Implementation of various deep learning models for speech recognition, including CNNs and RNNs.
+2. **Model Architecture:** Fine Tuning of various deep learning models for speech recognition.
 3. **Training Pipeline:** Scripts to train the ASR models on the prepared datasets.
 4. **Inference and Evaluation:** Tools to evaluate model performance on unseen audio samples.
 
@@ -17,15 +17,10 @@ This repository contains the following key components for building an ASR system
 ## Project Details
 
 ### 1. Data Preprocessing
-This component includes scripts for loading, normalizing, and segmenting audio data. It prepares the dataset for training by extracting relevant features such as Mel-frequency cepstral coefficients (MFCCs).
-
-### 2. Model Architecture
-This project implements various models suitable for ASR tasks, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). The models are designed to handle sequential data effectively.
-
-### 3. Training Pipeline
+This component includes scripts for loading, normalizing, and segmenting audio data. It prepares the dataset for training by extracting relevant features.
+### 2. Training Pipeline
 The training pipeline consists of scripts to train the ASR models using the prepared datasets. It includes options for configuring hyperparameters and saving model checkpoints.
 
-### 4. Inference and Evaluation
-This component includes scripts for running inference on audio samples and evaluating model performance using metrics such as Word Error Rate (WER) and Character Error Rate (CER).
-
+### 3. Inference and Evaluation
+This component includes scripts for running inference on audio samples and evaluating model performance using metrics such as Word Error Rate (WER).
 ---
